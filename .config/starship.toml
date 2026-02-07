@@ -24,15 +24,16 @@ style = 'cyan'
 
 [git_status]
 conflicted = "|🤡 conflicted"
-ahead = "↑🎉 ahead"
-behind = "↓😡 behind"
+ahead = " ↑🎉 ahead"
+behind = " ↓😡 behind"
 diverged  = "|🤬 diverged"
-modified  = "|🥹 modified"
+# for space
+modified  = "|🥹  modified"
 staged    = "|😋 staged"
 untracked = "|😅 untracked"
-# stashed = "📦"
-# renamed = "➜"
-# deleted = "✖"
+# stashed = "|🤓stashed"
+renamed = "|🫣  renamed"
+deleted = "|🤮 deleted"
 
 format = '([$all_status$ahead_behind]($style)) '
 style = "cyan"
